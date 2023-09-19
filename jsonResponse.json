@@ -1,0 +1,42 @@
+{
+    "nrid": 4,
+    "currentStatus": "Payed",
+    "authorization": {
+        "participantWallet": "0x0480f394adc4310a9c9794fa8e74966a8058354d",
+        "participantType": "Credenciador",
+        "pan": "1512454",
+        "mcc": "100512",
+        "authorizedAt": 1694637434,
+        "productBin": "0031231",
+        "saleValue": 10000,
+        "status": "burned"
+    },
+    "settlement": {
+        "participantWallet": "0x0480f394adc4310a9c9794fa8e74966a8058354d",
+        "participantType": "Credenciador",
+        "msgResponse": "OK",
+        "codeResponse": "201",
+        "settledAt": 1694637434,
+        "status": "burned"
+    },
+    "payment": {
+        "participantWallet": "0x0680f394adc4310a9c97942323e74966a8058354d",
+        "participantType": "Bandeira",
+        "participantCredenciador": {
+            "participantWallet": "0x0480f394adc4310a9c9794fa8e74966a8058354d",
+            "percentTx": 2,
+            "valueTx": 200,
+            "valueToTransf": 9600
+        },
+        "participantBandeira": {
+            "participantWallet": "0x0680f394adc4310a9c97942323e74966a8058354d",
+            "percent": 1,
+            "valueRecipet": 100
+        },
+        "participantEmissor": {
+            "participantWallet": "0x0780f394adc4310a9c92323455e74966a80583435",
+            "percent": 1,
+            "valueRecipet": 100
+        }
+    }
+}

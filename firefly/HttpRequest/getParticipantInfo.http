@@ -1,0 +1,12 @@
+POST /api/v1/namespaces/default/apis/ManagementContract/query/getParticipantInfo HTTP/1.1
+Host: 127.0.0.1:5000
+accept: application/json
+Request-Timeout: 2m0s
+Content-Type: application/json
+Content-Length: 121
+
+{
+  "input": {
+    "participantAddress": "0xd69d36f1f826fe2572fc4507f129832c193de119"
+  }
+}

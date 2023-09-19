@@ -1,0 +1,17 @@
+POST /api/v1/namespaces/default/apis/ManagementContract/query/getTransactionByStatus HTTP/1.1
+Host: 127.0.0.1:5000
+accept: application/json
+Request-Timeout: 2m0s
+Content-Type: application/json
+Content-Length: 43
+
+{
+  "input": {
+    "status": "1"
+  }
+}
+
+# status 0 - pending
+# status 1 - Authorized
+# status 2 - Settled
+# status 3 - PaymentGenerated

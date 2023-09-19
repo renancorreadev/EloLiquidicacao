@@ -1,0 +1,16 @@
+
+POST /api/v1/namespaces/default/apis/ManagementContract/invoke/addParticipant HTTP/1.1
+#Executando no Node da ELO com endereco da ELO
+Host: 127.0.0.1:5000
+accept: application/json
+Request-Timeout: 2m0s
+Content-Type: application/json
+Content-Length: 153
+
+{
+  "input": {
+    "participantType": "Credenciador",
+    "participantWallet": "0xb3962e7a872c26fe7b1e4d70e40c2c3dda5b870e"
+  }
+}
+

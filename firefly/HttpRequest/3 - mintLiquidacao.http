@@ -1,0 +1,12 @@
+POST /api/v1/namespaces/default/apis/CredenciadorA_SettlementContract/invoke/mintSettlementToken HTTP/1.1
+Host: 127.0.0.1:5001
+accept: application/json
+Request-Timeout: 2m0s
+Content-Type: application/json
+Content-Length: 107
+
+{
+  "input": {
+    "nrid": "80"
+  }
+}

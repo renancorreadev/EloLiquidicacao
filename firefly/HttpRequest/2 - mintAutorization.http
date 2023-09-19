@@ -1,0 +1,16 @@
+POST /api/v1/namespaces/default/apis/CredenciadorA_AuthorizationContract/invoke/mintAuthorizationToken HTTP/1.1
+Host: 127.0.0.1:5001
+accept: application/json
+Request-Timeout: 2m0s
+Content-Type: application/json
+Content-Length: 204
+
+{
+  "input": {
+    "mcc": "1231255",
+    "nrid": "80",
+    "pan": "52455",
+    "productBin": "4524",
+    "saleValue": "9999999"
+  }
+}
